@@ -1,0 +1,197 @@
+.myform{
+    display: flex;
+    height: 800px;
+    .left{
+        width: 67%;
+        background: url('https://demo.w3layouts.com/demos_new/template_demo/07-01-2019/full_screen_enroll_form_web-demo_Free/1152567462/web/images/2.jpg');
+        background-size: cover;
+        .container{
+            width: 600px;
+            height: 600px;
+            padding: 100px;
+            .header{
+                display: flex;
+                align-items: center;
+                i{
+                    color: white;
+                    font-size: 25px;
+                    margin-right: 20px;
+                }
+                h2{
+                    color: white;
+                    font-size: 30px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+            }
+            h1{
+                margin-top: 100px;
+                color: white;
+                font-size: 48px;
+                margin-bottom: 50px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            c{
+                background: white;
+                color: black;
+                font-size: 50px;
+                border-radius: 50%;
+                border: 3px solid black;
+            }
+            .navbar{
+                margin-top: 100px;
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    li{
+                        a{
+                            color: white;
+                            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+        p{
+           transform: translate(350px,160px);
+           color: white;
+           font-size: 20px;
+           font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           span{
+               color: #e74c3c;
+           }
+        }
+    }
+    .right{
+        background: #0e0e0e;
+        width: 33%;
+        .contain{
+            width: 95%;
+            padding: 50px;
+            .title{
+                h1{
+                    color: white;
+                    margin-bottom: 15px;
+                }
+                h2{
+                    color: white;
+                    margin-bottom: 10px;
+                }
+                p{
+                    color: white;
+                    margin-bottom: 30px;
+                }
+            }
+            .form{
+                h2{
+                    color: white;
+                    margin-bottom: 10px;
+                    font-size: 18px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+                .us{
+                    display: flex;
+                    padding: 8px;
+                    background: white;
+                    margin-bottom: 10px;
+                    border-radius: 5px;
+                    i{
+                        color: #e74c3c;
+                        text-align: center;
+                        margin-right: 10px;
+                    }
+                    input{
+                        padding: 5px;
+                        border: none;
+                    }
+                }
+            }
+            .accepted{
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                .vuong{
+                    width: 15px;
+                    height: 15px;
+                    border: 1px solid white;
+                    margin-right: 10px;
+                }
+                p{
+                    color: white;
+                    font-size: 18px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+            }
+            .submit{
+                padding: 15px;
+                background: #EE5A24;
+                border-radius: 5px;
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                p{
+                   color: white;
+                }
+            }
+        }
+        .end{
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            h2{
+                color: white;
+                font-size: 25px;
+                margin-bottom: 30px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            .logo{
+                display: flex;
+                justify-content: space-between;
+               a{
+                background: white;
+                width: 24x;
+                height: 28px;
+                border-radius: 5px;
+                i1{
+                    color: #1e3799;
+                    font-size: 30px;
+                }
+               }
+                a{
+                    background: white;
+                    background-size: cover;
+                    width: 24x;
+                    height: 26px;
+                    border-radius: 5px;   
+                    i2{
+                        color:#3498db;
+                        background: white;
+                        font-size: 30px;
+                    }
+                   }
+                a{
+                    background: white;
+                    width: 24x;
+                    height: 28px;
+                    border-radius: 5px;   
+                    i3{
+                        color: #fa983a;
+                        background: white;
+                        font-size: 30px;
+                    }
+                   }
+                a{
+                    background: white;
+                    width: 24x;
+                    height: 28px;
+                    border-radius: 5px;   
+                    i4{
+                        color: #e74c3c;
+                        background: white;
+                        font-size: 30px;
+                    }
+                   }
+            }
+        }
+    }
+}

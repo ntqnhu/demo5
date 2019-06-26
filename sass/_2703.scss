@@ -1,0 +1,93 @@
+body,html{
+    font-family: 'Oswald', sans-serif;
+}
+.item{
+    position: relative;
+    width: 500px;
+    margin: 300px;
+    h2{
+        position: absolute;
+        left:0;
+        bottom: 0;
+        // background: pink;
+        padding: 10px;
+        width: 100%;
+        a{
+            color: yellowgreen;
+        }
+    }
+}
+// img{
+//     max-width: 100%;
+
+
+// .item{
+//     position: relative;
+//     width: 800px;
+//     height: 400px;
+//     margin: 200;
+//     border: 2px  solid black; 
+//     .con{
+//         width: 100%;
+//         position: absolute;
+//         left:0;
+//        bottom: 0;
+//        display: flex;
+//        justify-content: space-between; 
+//        align-items: center;  
+//     }
+// }
+// .item{
+//     width: 400px;
+//     height: 200px;
+//     margin: 0 auto;
+//     .hinh{
+       
+//         position: relative;
+//         img{
+//             width: 100%;
+//         }
+//         p{
+//             position: absolute;
+//             left:0;
+//             top: 0;
+//             background: greenyellow;
+//             font-size: 30px;
+//         }
+//     }
+//     .avatar{
+//         margin-top: 10px;
+//         display: flex;
+//         justify-content: space-between; 
+//         align-items: center; 
+//         .ava{
+//             display: flex;
+//             align-items: center; 
+//             h1{
+//                 font-size: 20px;
+//                 margin-left: 10px;
+//             }
+//             img{
+//                 border-radius: 50%;
+//             }
+//         }
+//         .icon{
+//            h1{
+//             font-size: 20px;
+//            }
+//         }
+
+//     }
+//     .noidung{
+//         width: 100%;
+//         margin-top: 20px;
+//         h1{
+//             font-size: 20px;
+//             margin-bottom: 20px;
+
+//         }
+//         h2{
+//             font-size: 15px;
+//         }
+//     }
+// }

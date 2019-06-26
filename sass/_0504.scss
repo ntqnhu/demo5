@@ -1,0 +1,64 @@
+// .item{
+//     // margin: 0 auto;
+//     width: 600px;
+//     position: relative;
+//     .yellow{
+//         width: 600px;
+//         height: 400px;
+//         border: 1px solid black;
+//         background: yellow;
+//     }
+//     .red{
+//         position: absolute;
+//         top: 50%;
+//         left: 50%;//50% cua item
+//         transform:  translate(-50%, -50%) scale(2);//dich theo 2 truc x,y, 50% cua red
+//         // transform: translateY(-50%);
+//         // transform: scale(2);
+//         width: 150px;
+//         height: 100px;
+//         background: red;
+//         // margin: 150px 200px;
+//     }
+// }
+a{
+    position: relative;
+    font-size: 40px;
+    padding: 30px 30px;
+    color: #666;
+    background: #e1e1;
+    z-index: 1;
+    overflow: hidden;//vuot qua a thi an di
+    &:hover{
+        color: aqua;
+        &:after{
+            // transform: scale(-1.1,-1.2);
+            // border-radius: 30%;
+            transform: scale(4);
+            // display: block;
+            border-radius: unset;
+        }
+    }
+    &:after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        // border:2px solid blue;
+        background: #999;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        // transform: scale(1);
+        transform: scaleY(0);
+        // display: none;
+        transition: all 0.5s;
+        z-index: -1;
+    }
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

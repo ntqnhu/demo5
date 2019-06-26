@@ -1,0 +1,35 @@
+.header{
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        .logo{
+            width: 200px;
+            img{
+                max-width: 100%;
+                border-radius: 50%;
+            }
+        }
+        .navbar{
+            ul{
+                display: flex;
+                li{
+                    margin: 20px;
+                    a{
+                        font-size: 20px;
+                        transition: all 0.5s;
+                        color: #b2bec3;
+                        // padding-bottom: 5px;
+                    }
+                    a:hover{
+                        padding-bottom: 5px;
+                        color: #ff7675;
+                        border-bottom:  1px solid red;
+                    }
+                }
+            }
+        }
+    }
+}

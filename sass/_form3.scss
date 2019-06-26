@@ -1,0 +1,147 @@
+body{
+    background: url('https://khoanh24.com/uploads/w750/2018/08/13/Samsung-Galaxy-Note-9-Stock-Wallpapers-Mohamedovic_(6)5b70e5df8fd8e_065ea245fa32cbd9b362ccae6b90f771.jpg');
+    background-size: cover;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    h1{
+        color: white;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 40px;
+        margin-left: 35%;
+    }
+    .f{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        .form1{
+         width: 650px;
+         height: 400px;;
+         background: rgba(black, 0.2);
+         h2{
+            color: white;
+            font-size: 40px;
+            margin-right: 20px;
+            font-family: 'Quicksand', sans-serif;
+            transform: translate(200px,50px);
+        }
+        .us{
+            width: 75%;
+            height: 40px;
+            border: 1px solid white;
+            margin-bottom: 30px;
+            margin-left: 12%;
+            transform: translateY(100px);
+            i{
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                margin-left: 100px;
+                padding: 10px;
+
+            }
+            input{
+                padding: 5px;
+                width: 70%;
+                border: none;
+                background: none;
+                &::-webkit-input-placeholder{
+                        color: white;
+                    }
+                }
+            }
+        .click{
+            transform: translateY(100px);
+            display: flex;
+            width: 75%;
+            margin: 0 auto;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                width: 200px;
+                height: 40px;
+                text-align: center;
+                background: #27ae60;
+                color: white;
+                font-size: 20px;
+                padding: 10px;
+                margin-bottom: 40px;
+                margin-right: 100px;
+                font-family: 'Quicksand', sans-serif;
+
+                
+            }
+           c{
+            width: 200px;
+            height: 40px;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            padding: 10px;
+            font-family: 'Quicksand', sans-serif;
+                background: #B33771;
+            }
+        }
+        }
+        .form2{
+            width: 650px;
+            height: 550px;
+            background: rgba(black, 0.2);
+            h2{
+               color: white;
+               font-size: 40px;
+               margin-right: 20px;
+               font-family: 'Quicksand', sans-serif;
+               transform: translate(200px,50px);
+           }
+           .us{
+               width: 75%;
+               height: 40px;
+               border: 1px solid white;
+               margin-bottom: 30px;
+               margin-left: 12%;
+               transform: translateY(100px);
+               i{
+                   color: white;
+                   font-size: 20px;
+                   text-align: center;
+                   margin-left: 100px;
+                   padding: 10px;
+   
+               }
+               input{
+                   padding: 5px;
+                   width: 70%;
+                   border: none;
+                   background: no
+                   ne;
+                   &::-webkit-input-placeholder{
+                    color: white;
+                }
+                   }
+               }
+            p{
+                transform: translateY(120px);
+                width: 75%;
+                height: 40px;
+                text-align: center;
+                background: #27ae60;
+                margin-left: 13%;
+                color: white;
+                font-size: 20px;
+                padding: 10px;
+                
+            }
+           }
+    }
+    p{
+        width: 50%;
+        margin: 0 auto;
+        color: white;
+        margin-top: 40px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,109 @@
+// .navbar{
+//     >ul{ //con cua navbar
+//         display: flex;
+//         >li{//> phan tu con cua ul
+//             margin-left: 20px;
+//             position: relative;
+//             a{
+//                 font-size: 30px;
+//                 color: #333;
+//             }
+//             .dropdown{
+//                 background: #666;
+//                 position: absolute;
+//                 width: 220px;
+//                 display: none;
+//                 transform-origin: 50% 0%;
+//                 a{
+//                     color: white;
+//                     font-size: 22px;
+//                     padding: 7px 14px;
+//                     display: block; //nam tren cung 1 hang 
+//                 }
+//                 &:after{
+//                     content: '';
+//                     position: absolute;
+//                     border-bottom: 10px solid #666;
+//                     border-top: 10px solid transparent;
+//                     border-left: 10px solid transparent;
+//                     border-right: 10px solid transparent;
+//                     top:-20px;
+//                     left: 30px;
+                    
+//                 }
+//             }
+//             &:hover{
+//                 .dropdown{
+//                     display: block;
+//                     animation: fadein 0.5s forwards;
+//                 }
+//             }
+//         }
+//     }
+    
+// }
+// @keyframes fadein{
+//     from{
+//         // opacity: 0;
+//         transform: scaleY(0);
+//     }
+//     to{
+//         // opacity: 1;
+//         transform: scaleY(1)
+//     }
+// }
+
+
+.lines{
+    position: relative;
+    &:after{
+        position: absolute;
+        content: '';
+        top: 10px;
+        left: 0;
+        width: 30px;
+        height: 5px;
+        background:red;
+        transition: all 0.5s;
+        transform: rotate(-45deg) translate(6px,-9px);
+    }
+    .line{
+        width: 50px;
+        height: 5px;
+        background:red;
+        opacity: 0;
+        
+    }
+    &:before{
+        position: absolute;
+        content: '';
+        top: -10px;
+        left: 0;
+        width: 30px;
+        height: 5px;
+        background:red;
+        transition: all 0.5s;
+        transform: rotate(45deg) translate(4px,8px);
+
+    }
+    // &:hover{
+    //     &:after{
+    //         transform: rotate(-45deg) translate(6px,-9px);
+
+    //     }
+    //     &:before{
+          
+    //         transform: rotate(45deg) translate(4px,8px);
+    //     }
+    //     .line{
+    //         opacity: 0;
+    //     }
+
+    // }
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

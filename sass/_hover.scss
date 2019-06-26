@@ -1,0 +1,321 @@
+.container{
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    .title{
+        font-size: 20px;
+        color: #00b894;
+        margin-bottom: 20px;
+    }
+    .h1{
+        .grow{
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 30px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+        .shrink{
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 30px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+                transform: scale(0.8);
+            }
+        }
+        .pulse{
+            transition: all 1s ease-in-out;
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 30px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+                animation: topulse 1s;
+                animation-iteration-count: infinite;
+            }
+        }
+        .pulseG{
+            transition: all 1s ease-out;
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 3px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+                animation: topulse 0.7s;
+                animation-iteration-count: infinite;
+            }
+        }
+        .pulseShrink{
+            transition: all 1s ease-out;
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 3px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+                animation: toshrink 0.7s;
+                animation-iteration-count: infinite;
+            }
+        }
+        .push{
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 30px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+                animation: topush 0.5s;
+                animation-iteration-count: 1;
+            }
+        }
+        .pop{
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 30px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+                animation: topop 0.5s;
+                animation-iteration-count: 1;
+            }
+            transition: ease-in-out;
+        }
+    }
+    .h2{
+        .bounceIn{
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 3px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+                animation: toBounceIn 0.7s;
+                animation-iteration-count: 1;
+                transform: scale(1.3);
+            }
+        }
+        .bounceOut{
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 3px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+                animation: toBounceOut 0.7s;
+                animation-iteration-count: 1;
+                transform: scale(0.8);
+            }
+        }
+        .rotate{
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 3px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+               transform: rotate(5deg);
+            }
+        }
+        .growRotate{
+            width: 130px;
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 2px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+               transform: rotate(5deg) scale(1.2);
+            }
+        }
+        .float{
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 20px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+              transform: translateY(-20px);
+
+            }
+        }
+        .sink{
+            p{
+                a{
+                    text-align: center;
+                    margin-left: 20px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+              transform: translateY(20px);
+
+            }
+        }
+        .bob{
+            p{
+                transition: ease-in-out;
+                a{
+                    text-align: center;
+                    margin-left: 20px;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+            &:hover{
+              animation: toTop 1s;
+              animation-iteration-count: infinite;
+
+            }
+        }
+    }
+}
+
+.khung{
+    width: 120px;
+    height: 40px;
+    background: #dfe6e9;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+@keyframes topulse{
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(1.1);
+    }
+    40%
+    {
+        transform: scale(1.2);
+    }
+    60%
+    {
+        transform: scale(1.1);
+    }
+    80%
+    {
+        transform: scale(1);
+    }
+    100%
+    {
+        transform: scale(0.9);
+    }
+}
+@keyframes toshrink{
+    0%{
+        transform: scale(1);
+    }
+    20%{
+        transform: scale(0.9);
+    }
+    40%
+    {
+        transform: scale(0.8);
+    }
+    60%
+    {
+        transform: scale(0.8);
+    }
+    80%
+    {
+        transform: scale(0.9);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}
+@keyframes topush{
+    from{
+        transform: scale(0.8);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes topop{
+    from{
+        transform: scale(1.2);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes toBounceIn{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+}
+@keyframes toBounceOut{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.9);
+    }
+    100%{
+        transform: scale(0.8);
+    }
+}
+@keyframes toTop{
+    0%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(5px);
+    }
+}

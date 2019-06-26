@@ -1,0 +1,237 @@
+body,html{
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    width: 1590px;
+    .header{
+        width: 1500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;       
+        .hleft{           
+            display: flex;
+            justify-content: space-between; 
+             align-items: center;
+                img{
+                    max-width: 100%;
+                }
+                h2{
+                    font-size: 25px;
+                    text-transform: uppercase;
+                }
+
+        }
+        .hright{
+            
+                ul{
+                      display: flex;
+                    li{
+                        margin-left: 20px;
+                        a{
+                            font-size: 20px;
+                            color: #333;
+                        }
+                    }
+                }
+
+            }
+    }
+    .body1{
+        width: 1590px;
+        height: 450px;
+        background-image: url('https://i.imgur.com/33XLJYZ.jpg');
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        .text{
+         .text1{
+             width: 800px;
+             height: 60px;
+             background: #636e72;
+             text-align: center;
+             margin-bottom: 5px;
+             h1{
+                 color: aliceblue;
+             }
+         }
+         .text2{
+            width: 700px;
+            height: 50px;
+            background: #636e72;
+            text-align: center;
+            margin-bottom: 5px;
+            margin-left: 50px;
+            h2{
+                color: aliceblue;
+            }
+         }
+         .text3{
+            width: 200px;
+            height: 60px;
+            background: green;
+            border: 3px solid black;
+            border-bottom: 6px solid black;
+            text-align: center;
+            margin-left: 280px;
+            h3{
+                color: aliceblue;
+                font-size: 30px;
+            }
+         }
+
+        
+        }
+    }
+    .body2{
+        width: 1590px;
+        height: 170px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #636e72;
+        .content{
+            width: 300px;
+            height: 150px;
+            text-align: center;
+            border-right: 2px solid white;
+            margin-right: 20px;
+            margin-left: 20px;
+            i{
+                font-size: 40px;
+                color: white;
+            }
+            h1{
+                margin-top: 5px;
+                color: white;
+                font-size: 20px;
+            }
+            p{
+                color: white;
+            }
+
+        }
+        .content:last-child{
+            border-right: none;
+        }
+    }
+    .body3{
+        width: 1590px;
+        height: 500px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid #333;
+        .noidung{
+            margin-left: 40px;
+            width: 700px;
+            height: 300px;
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+
+    }
+    .body4{
+        width: 1590px;
+        height: 500px;
+        border: 1px solid black;
+        text-align: center;
+        .title{
+            margin-top: 30px;
+        }
+        .under{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .messenger{
+                width: 400px;
+                height: 300px;
+                padding: 30px;
+                margin-left: 70px;
+                .mess{
+                    position: relative;
+                    .hcn{
+                        width: 370px;
+                        height: 200px;
+                        border: 3px solid black;
+                        padding: 20px;
+                        position: relative;
+                        z-index: 101;
+                        background: white;
+                    }
+                    .nhon{
+                        position: absolute;
+                        bottom: -10;
+                        left: 30px;
+                        width: 20px;
+                        height: 20px;
+                        z-index: 1000;  //chi ap dung vs position:relative
+                        background: white;
+                        transform: rotate(45deg);
+                        border-bottom: 3px solid black;//vien duoi
+                        border-right: 3px solid black;//vien phai
+                    }
+                }
+                .ava{
+                   display: flex;
+                   margin-top: 20px;
+                   margin-right: 30px;
+                   img{
+                       border-radius: 50%;
+                   }
+                   .name{
+                       width: 100%;
+                       h1{
+                           font-size: 25px;
+                       }
+                       h2{
+                           font-size: 15px;
+                       }
+                   }
+                }
+            }
+        }
+    }
+    .final{
+        width: 1590px;
+        height: 400px;
+        border: 2px solid black;
+        background: #636e72;
+        .items{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            .item
+            {
+                margin-left: 70px;         
+                h1{
+                    font-size:  35px;
+                    margin-bottom: 20px;
+                    color: white;
+                }
+                h2{
+                    color: white;
+                }
+               }
+        }
+    .end{
+        width: 500px;
+        height: 100px;
+        border-top: 3px solid whitesmoke;
+        margin-left: 570px;
+        margin-top: 30px;
+        h2{
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+        }
+    }
+    }
+
+}

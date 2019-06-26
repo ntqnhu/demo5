@@ -1,0 +1,171 @@
+body,html{
+    font-family: 'Rubik', sans-serif;
+}
+//cach dat bien trong scss
+$main-color: #4c98c9;
+.header{
+    background: #666;
+    position: fixed; //tach ra 1 line rieng
+    width: 100%;
+    top:0;
+    // bottom: 0;
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    .logo{
+        a{
+            font-size: 30px;
+            color: white;
+            span{
+                color: $main-color;
+                font-size: 30px;
+            }
+            &:hover{
+                color: $main-color;
+            }
+        }
+    }
+    .navbar{
+        width: 700px;
+                ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li{
+                    a{
+                        font-size: 20px;
+                        position: relative;
+                        color: white; 
+                        &:hover{
+                            color: $main-color;;
+                        }
+                    }
+                }
+                }
+    }
+}
+}
+.baner{
+    margin-top: 74px;
+    background: url('http://themes.iki-bir.com/creatink/style/images/art/slider-bg19.jpg');
+    background-size: cover;
+    height: 1000px;
+    .con1{
+        width: 1200px;
+        height: 600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .chu{
+            h1{
+                font-size: 50px;
+                text-align: center;
+                margin-bottom: 40px;
+                color: #666;
+                opacity: 0;
+                // animation-name: toRight; //h1 chuyen sang dong
+                // animation-duration: 2s; 
+                // animation-fill-mode: forwards; //chay xong giu
+                animation: toRight 2s forwards; //viet tat
+                animation-iteration-count: infinite;
+            }
+            p{
+                width: 600px;
+                margin: 0 auto;
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 40px;
+                color: #666;
+                animation-name: toLeft; //h1 chuyen sang dong
+                animation-duration: 2s;
+                animation-delay: 1s; //sau 1s thi chay
+                opacity: 0;
+                animation-fill-mode: forwards;
+            }
+            h2{
+                width: 230px;
+                height: 50px;
+                margin: 0 auto;
+                padding: 10px;
+                text-align: center;
+                background: #4c98c9;
+                border-radius: 10px;
+                font-size: 20px;
+                animation-name: toTop; //chuyen sang dong
+                animation-duration: 2s;
+                animation-delay: 2s;
+                opacity: 0;
+                animation-fill-mode: forwards;
+
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+
+    
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #4c98c9;
+
+}
+@keyframes toRight{ //chuyen dong sang phai
+    from{
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes toLeft{ //chuyen dong sang phai
+    from{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+// @keyframes toTop{ //chuyen dong sang phai
+//     from{
+//         transform: translateY(50px);
+//         opacity: 0;
+//     }
+//     to{
+//         transform: translateY(0);
+//         opacity: 1;
+//     }
+// }
+@keyframes toTop{
+    0%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    20%{
+        transform: translateY(30px) rotate(360deg) scale(2);
+        opacity: 0;
+    }
+    80%{
+        transform: translateY(-30px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

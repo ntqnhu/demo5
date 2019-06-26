@@ -1,0 +1,446 @@
+
+.banner{
+    height: 800px;
+    background-image: url('https://static.yeah1music.net/uploads/33/2019/05/04/5cccfb9b3f0dd.jpg');
+    background-size: cover;
+    .header{
+        padding-top: 20px;
+        >p{
+            font-size: 35px;
+            color: white;
+            margin-left: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+        .navbar{
+            >ul{ //con cua navbar
+                display: flex;
+                >li{//> phan tu con cua ul
+                    margin-left: 20px;
+                    position: relative;
+                    >a{
+                        font-size: 15px;
+                        color:white;
+                    }
+                    .dropdown{
+                        background: #666;
+                        position: absolute;
+                        width: 150px;
+                        display: none;
+                        transform-origin: 50% 0%;
+                        a2{
+                            color: white;
+                            font-size: 15px;
+                            padding: 7px 14px;
+                            display: block; //nam tren cung 1 hang 
+                        }
+                    }
+                    &:hover{
+                        .dropdown{
+                            display: block;
+                            animation: fadein 0.5s forwards;
+                        }
+
+                    }
+                    &:hover{
+                        a{
+                            color:#6666;
+                        }
+                        i{
+                            color: #6666;
+                        }
+                    }
+                }
+                i{
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+            
+        }
+        .bright{
+            margin-right: 30px;
+            ul{
+                display: flex;
+                li{
+                    i{
+                        color: white;
+                        font-size: 17px;
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .title{
+        width: 390px;
+        margin-left: 200px;
+        margin-top: 200px;
+        h1{
+            font-size: 4.5em;
+            color: #ff0779;
+            font-weight: bolder;
+            line-height: 71px;
+            letter-spacing: 9px;
+            margin-bottom: 10px;
+            font-family: 'Playfair Display', serif;
+        }
+        p{
+            color: white;
+            font-size: 25px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            font-family: 'Playfair Display', serif;
+
+        }
+    }
+}
+.body1{
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 70px;
+        .item1{
+            padding: 40px 60px;
+            h2{
+                font-size: 44px;
+                color: #000;
+                letter-spacing: 2px;
+                font-weight: 400px;
+                text-align: center;
+                margin-right: 60px;
+                font-family: 'Playfair Display', serif;
+
+            }
+            p{
+                width: 800px;
+                font-size: 13px;
+                color: #666;
+            }
+        }
+        .item2{
+            .table{
+                width: 270px;
+                border: solid 3px #fbfbfb;
+                i{
+                    margin-top:30px;
+                    margin-left: 20px;
+                    font-size: 40px;
+                    color:#ffc107;
+                }
+                h3{
+                    font-size: 23px;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    color: #545454;
+                    font-family: 'Playfair Display', serif;
+
+
+                }
+                p{
+                    font-size: 13px;
+                    margin-left: 20px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    color: #666;
+
+                }
+            }
+        }
+    }
+}
+.body2{
+    background: #fbfbfb;
+    .container{
+        padding-bottom: 70px;
+        .item1{
+            padding: 60px 30px;
+            h2{
+                font-size: 40px;
+                color: #000;
+                letter-spacing: 1px;
+                font-weight: 400px;
+                text-align: center;
+                margin-right: 60px;
+                font-family: 'Playfair Display', serif;
+
+            }
+            p{
+                width: 800px;
+                font-size: 13px;
+                color: #666;
+            }
+        }
+       .item2{
+           .list{
+               width: 400px;
+               .item{
+                h3{
+                    font-size: 23px;
+                    color: #545454;
+                    font-family: 'Playfair Display', serif;
+
+
+                }
+                .con{
+                    margin-top:15px;
+                    margin-bottom: 30px;
+                    i{
+                        font-size: 45px;
+                        color:#ffc107;
+                        text-align: center;
+                    }
+                    p{
+                        width: 300px;
+                        font-size: 13px;
+                        margin-bottom: 30px;
+                        color: #666;
+
+                    }
+                }
+               }
+           }
+            .img{
+                width: 330px;
+                height: 500px;
+                background-image: url('https://demo.w3layouts.com/demos_new/template_demo/23-03-2019/hair_spa-demo_Free/766761904/web/images/s1.jpg');
+                background-size: cover;
+            }
+       }
+    }
+}
+.body3{
+    .container{
+        padding-bottom: 100px;
+        .item{
+            padding: 60px 30px;
+            h2{
+                font-size: 40px;
+                color: #000;
+                letter-spacing: 1px;
+                font-weight: 400px;
+                text-align: center;
+                margin-right: 60px;
+                font-family: 'Playfair Display', serif;
+
+            }
+            p{
+                width: 800px;
+                font-size: 13px;
+                color: #666;
+            }
+        }
+    }
+    .backg1{
+        padding-left: 400px;
+        .item1{
+            width: 430px;
+            border: solid 3px #fbfbfb;
+            background: white;
+            transform: translate(-250px, -150px);
+            h1{
+                width: 80px;
+                padding: 5px;
+                margin-left: 20px;
+                background: #ff0779;
+                color: white;
+                text-align: center;
+                margin-top: 20px;
+                font-family: 'Playfair Display', serif;
+
+            }
+            h3{
+                font-size: 25px;
+                margin-left: 20px;
+                margin-top: 20px;
+                color: #545454;
+                font-family: 'Playfair Display', serif;
+
+
+            }
+            p{
+                font-size: 13px;
+                margin: 20px;
+                color: #666;
+            }
+            a{
+                margin-left: 20px;
+                >p{
+                    width: 110px;
+                    color: #ff0779;
+                    padding: 10px;
+                    font-size: 15px;
+                    border: solid 1px #666;
+                }
+            }
+        }
+        .item3{
+            width: 430px;
+            border: solid 3px #fbfbfb;
+            background: white;
+            transform: translate(-250px, -100px);
+            h1{
+                width: 80px;
+                padding: 5px;
+                margin-left: 20px;
+                background: #ff0779;
+                color: white;
+                text-align: center;
+                margin-top: 20px;
+            }
+            h3{
+                font-size: 25px;
+                margin-left: 20px;
+                margin-top: 20px;
+                color: #545454;
+
+            }
+            p{
+                font-size: 13px;
+                margin: 20px;
+                color: #666;
+            }
+            a{
+                margin-left: 20px;
+                >p{
+                    width: 110px;
+                    color: #ff0779;
+                    padding: 10px;
+                    font-size: 15px;
+                    border: solid 1px #666;
+                }
+            }
+        }
+    }
+    .backg2{
+        background-image: url('https://demo.w3layouts.com/demos_new/template_demo/23-03-2019/hair_spa-demo_Free/766761904/web/images/s3.jpg');
+        padding-left: 200px;
+        height: 450px;
+        // transform: translateY(-200px);
+        .item2{
+            width: 430px;
+            border: solid 3px #fbfbfb;
+            background: white;
+            transform: translate(0, -100px);
+            h1{
+                width: 80px;
+                padding: 5px;
+                margin-left: 20px;
+                background: #ff0779;
+                color: white;
+                text-align: center;
+                margin-top: 20px;
+            }
+            h3{
+                font-size: 25px;
+                margin-left: 20px;
+                margin-top: 20px;
+                color: #545454;
+
+            }
+            p{
+                font-size: 13px;
+                margin: 20px;
+                color: #666;
+            }
+            a{
+                margin-left: 20px;
+                >p{
+                    width: 110px;
+                    color: #ff0779;
+                    padding: 10px;
+                    font-size: 15px;
+                    border: solid 1px #666;
+                }
+            }
+        }
+    }
+    
+}
+.body4{
+    background: #000;
+    margin-top: 20px;
+    .container{
+        width: 1000px;
+        margin: 0 auto;
+        padding:70px 0px;
+        text-align: center;
+        >p{
+            font-size: 30px;
+            color: white;
+            margin-bottom: 30px;
+            font-family: 'Playfair Display', serif;
+
+        }
+        form{
+            .action{
+                display: flex;
+                align-items: center;
+                // background: rgba( black, 0.04);
+                width: 400px;
+                margin: 0 auto;
+                border-bottom: solid 1px white;
+                input{
+                    padding: 15px;
+                    border: none;
+                    background: rgba( black, 0);
+                    &::-webkit-input-placeholder{
+                        color:#666;
+                        font-size: 15px;
+                    }
+                }
+                >p{
+                    color: white;
+                    background: #ff0779;
+                    padding: 10px;
+                    margin-left: 10px;
+                    width: 100px;
+                    transform: translateX(200px);
+                }
+            }
+        }
+        .list{
+            margin-top: 50px;
+            .item{
+                width: 200px;
+                h3{
+                    color: white;
+                    margin-bottom: 10px;
+                    font-family: 'Playfair Display', serif;
+
+                }
+                p{
+                    color: #666666;
+                }
+            }
+        }
+        a{
+            i{
+                color: white;
+                font-size: 35px;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+.end{
+    padding: 20px 0px;
+    background: #8e8e8e;
+    >p{
+        text-align: center;
+        letter-spacing: 4px;
+        color: white;
+        font-size: 13px;
+        span{
+            color: #007bff;
+        }
+    }
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contain{
+    width: 1200px;
+    margin: 0 auto;
+}

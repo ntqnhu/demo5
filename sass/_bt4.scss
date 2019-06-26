@@ -1,0 +1,141 @@
+.mom{
+    .header{
+        background: #1e272e;
+        margin-bottom: 50px;
+        .container{
+             max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;       
+            .left{           
+                display: flex;
+                justify-content: space-between; 
+                 align-items: center;
+                .logo{
+                    width: 100px;
+                    img{
+                        max-width: 100%;
+                    }
+                }
+                .navbar{
+                
+                    ul{
+                          display: flex;
+                        li{
+                            margin-left: 20px;
+                            a{
+                                color: aliceblue;
+                                font-size: 15px;
+                            }
+                        }
+                    }
+    
+                }
+            }
+            .right{
+                display: flex;
+                .kinh{
+                    margin-right: 20px;
+                    img{
+                        border-radius: 50%;
+                    }
+                }
+                .avatar{
+                    img{
+                        border-radius: 50%;
+                        border: 2px solid #b2bec3;
+                    }
+                }
+            }
+        }
+    }
+    .body1{
+        margin-bottom: 30px;
+        .contain{
+    
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between; 
+            align-items: center;   
+            .bleft{
+                display: flex;
+                align-items: center; 
+                .tin{
+                    margin-right: 10px;
+                    h1{
+                        font-size: 15px;
+                        color: orange;
+                    }
+                }
+                .tieude{
+                    h2{
+                        font-size: 15px;
+                        margin-right: 480px;
+                    }
+                }
+            }  
+            .bright{
+                display: flex;
+                align-items: center; 
+                h3{
+                    font-size: 15px;
+                    margin-right: 10px;
+                }
+                h4{
+                    font-size: 15px;
+                }
+            }
+        
+        }
+    }
+    .body2{
+        max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+        .list{
+            .tin{
+                margin-bottom: 10px;
+                display: flex;
+                .tintuc{
+                    img{
+                        margin-right: 10px;
+                    }
+                }
+                .noidung{
+                    h2{
+                        font-size: 15px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .tinchinh{
+            margin-left: 20px;
+            img{
+                width: 100%;
+            }
+            h1{
+                font-size: 30px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            h2{
+                font-size: 20px;
+            }
+        }
+        .tinphu{
+            margin-left: 20px;
+            img{
+                width: 100%;
+                margin-bottom: 10px;
+            }
+            h2{
+                font-size: 20px;
+            }
+        }
+          
+        
+    }
+}

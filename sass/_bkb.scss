@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.container{
+    width: 1000px;
+    >h1{
+        font-size: 40px;
+        margin-left: 250px;
+    }
+    .game{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .item{
+            .bua1{
+                font-size: 40px;
+                margin: 20px 40px;
+            }
+            .keo1{
+                font-size: 40px;
+                margin: 20px 40px;
+            }
+            .bao1{
+                font-size: 40px;
+                margin: 20px 40px;
+            }
+            .bua2{
+                font-size: 40px;
+                margin: 20px 40px;
+            }
+            .keo2{
+                font-size: 40px;
+                margin: 20px 40px;
+            }
+            .bao2{
+                font-size: 40px;
+                margin: 20px 40px;
+            }
+        }
+        a{
+            padding: 10px 100px;
+            border: solid 2px red;
+            font-size: 30px;
+            color: blue;
+        }
+    }
+}

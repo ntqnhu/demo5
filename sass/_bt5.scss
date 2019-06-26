@@ -1,0 +1,91 @@
+body,html{
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    display: flex;
+    margin: 30px;
+    
+    .item1{
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+        position: relative;
+        h2{
+            width: 100%;
+            position: absolute;
+            left:10px;
+            top: 10px;
+            a{
+                color: aliceblue;
+                background: #d63031;
+                font-size: 15px;
+            }
+        }
+        h3{
+            width: 100%;
+            position: absolute;
+            left:10px;
+            bottom: 0;
+            a{
+                color: whitesmoke;
+                font-size: 18px;
+            }
+        }
+        
+    }
+    .item2{
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+        position: relative;
+        h2{
+            width: 100%;
+            position: absolute;
+            left:10px;
+            top: 10px;
+            a{
+                color: aliceblue;
+                background: #00cec9;
+                font-size: 15px;
+            }
+        }
+        h3{
+            width: 100%;
+            position: absolute;
+            left:10px;
+            bottom: 0;
+            a{
+                color: whitesmoke;
+                font-size: 18px;
+            }
+        }
+    }
+    .item3{
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+        position: relative;
+        h2{
+            width: 100%;
+            position: absolute;
+            left:10px;
+            top: 10px;
+            a{
+                color: aliceblue;
+                background: #0984e3;
+                font-size: 15px;
+
+            }
+        }
+        h3{
+            width: 100%;
+            position: absolute;
+            left:10px;
+            bottom: 0;
+            a{
+                color: whitesmoke;
+                font-size: 18px;
+            }
+        }
+    }
+}

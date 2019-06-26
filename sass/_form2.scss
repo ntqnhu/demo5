@@ -1,0 +1,113 @@
+body{
+    background-image: url('https://demo.w3layouts.com/demos_new/template_demo/29-12-2018/modish_login_form-demo_Free/1816858564/web/images/2.jpg');
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    .header{
+        margin-bottom: 90px;
+        margin-left: 180px;
+        b{
+            color: white;
+            font-size: 70px;
+            font-family: 'Shadows Into Light', cursive;
+            text-align: center;
+
+            span{
+                color: #d63031;
+            }
+        }
+    }
+    .form{
+        width: 500px;
+        height: 400px;
+        margin: 0 auto;
+        background: rgba(black, 0.4);
+        .title{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            padding: 40px;
+            margin-left: 90px;
+            h2{
+                color: white;
+                font-size: 40px;
+                margin-right: 20px;
+                font-family: 'Quicksand', sans-serif;
+
+            }
+            i{
+                color:  white;
+                font-size: 40px;
+            }
+
+        }
+        .username{
+            width: 75%;
+            height: 40px;
+            background: white;
+            margin-bottom: 20px;
+            margin-left: 10%;
+            i{
+                color: #d63031;
+                font-size: 20px;
+                text-align: center;
+                margin-left: 10px;
+                padding: 10px;
+
+            }
+            input{
+                padding: 5px;
+                width: 70%;
+                border: none;
+            }
+        }
+        .password{
+            width: 75%;
+            height: 40px;
+            background: white;
+            margin-bottom: 20px;
+            margin-left: 10%;
+            i{
+                color: #d63031;
+                font-size: 20px;
+                text-align: center;
+                margin-left: 10px;
+                padding: 10px;
+
+            }
+            input{
+                padding: 5px;
+                width: 70%;
+                border: none;
+            }
+        }
+        button{
+            font-size: 30px;
+            background: rgba(black, 0.3);
+            color: #d63031;
+            border-radius: 20%;
+            border: 3px solid white;
+            transform: translate(50%,50%);
+            margin-left: 200px;
+            i{
+                padding: 5px;
+            }
+        }
+    }
+    p{
+        padding: 100px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+        color: white;
+        a{
+            color: #d63031;
+        }
+    }
+
+}

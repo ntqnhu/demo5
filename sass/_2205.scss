@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+    button{
+            padding: 10px;
+            border-radius: 10px;
+            background: #666;
+            color: white;
+    }
+    .modal{
+        display: none;
+        .modal-content{
+            height: 100vh;
+         //   width: 100vw;
+            position: fixed;
+            top: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .chu{
+                border: solid 1px #333;
+                text-align: center;
+               .c{
+                   height: 150px;
+               }
+               .yn{
+                 display: flex;
+                 >button{
+                     background: white;
+                     width: 200px;
+                     height: 50px;
+                     border-radius: 0px;
+                     color: black;
+                 }
+              }
+            }
+        }
+    }

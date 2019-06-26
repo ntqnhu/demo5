@@ -1,0 +1,61 @@
+.picture{
+   width: 1000px;
+   height: 500px;
+   border: 1px solid black;
+//    background-image: url('https://picsum.photos/300/200');
+//    background-repeat: no-repeat; 
+//    background-position: 50% 50%;
+//    background: url('https://i.imgur.com/33XLJYZ.jpg') no-repeat top center;
+//    background-color: pink;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   .con{
+       width: 200px;
+       height: 100px;
+       border-right: 1px solid green;
+       background: yellow;
+       text-align: center;
+       &:nth-child(2n){
+        border-right: none;
+   }
+//    .con:nth-child(2n){
+//        border-right: none;
+    &:hover{
+        background: grey;
+    }
+   }
+
+}
+.msg
+{
+    position: relative;
+    margin: 200px;
+    .hcn{
+        width: 300px;
+        border: 1px solid black;
+        padding: 20px;
+        position: relative;
+        z-index: 101;
+        background: white;
+        color: blue;
+        transition: all 1s;
+    }
+    .hcn:hover{
+        transform: rotate(360deg);
+
+    }
+    .nhon{
+        position: absolute;
+        bottom: -10;
+        left: 30px;
+        width: 20px;
+        height: 20px;
+        z-index: 1000;  //chi ap dung vs position:relative
+        background: white;
+        transform: rotate(45deg);
+        border-bottom: 1px solid black;//vien duoi
+        border-right: 1px solid black;//vien phai
+        
+    }
+}

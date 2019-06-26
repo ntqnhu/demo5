@@ -1,0 +1,399 @@
+.header{
+    background: #ffc107;
+    .container{
+        .row{
+            .logo{
+                background: #000;
+                padding: 5px;
+                h1{
+                    color: white;
+                    text-align: center;
+                }
+            }
+            .navbar{
+                background: #ffc107;
+                ul{
+                    display: flex;
+                    li{
+                        a{
+                            align-items: center !important;
+                            color: white !important;
+                        }
+                    }
+                }
+                button{
+                    padding: 7px 0px;
+                    color: white;
+                    background: #000;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+.banner{
+    background: url('https://colorlib.com/preview/theme/knights/images/bg_1.jpg') no-repeat top center/cover;
+    height: 90vh;
+    .text{
+        padding-top: 200px;
+        h1,p{
+            color: white;
+        }
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 22px;
+            letter-spacing: 1px
+        }
+        .icon{
+            display: flex;
+            align-items: center;
+            i{
+                color: black;
+                padding: 20px;
+                border-radius: 50%;
+                font-size: 10px;
+                background:rgba(white,0.5);
+                margin-right: 20px;
+            }
+            a{
+                color: white !important;
+                font-size: 25px !important;
+            }
+        }
+    }
+}
+.buy-ticket{
+    transform: translateY(-50%);
+    .container{
+        background: #232931 !important;
+        border-radius: 10px !important;
+        .row{
+            padding: 10px !important;
+            align-items: center !important;
+            h2,p{
+                color: white;
+            }
+            h2{
+                font-size: 20px;
+            }
+            .ava{
+                .img{
+                    display: flex;
+                  img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                  }
+                  .hinh1{
+                      transform: translateX(15px);
+                  }
+                }
+                .ava-text{
+                    h2{
+                        font-size: 18px;
+                        transform: translateX(20px);
+                    }
+                }
+            }
+            .day, .hour, .minutes{
+                border-right: 1px solid #f6f6f6;
+
+            }
+            button{
+                padding: 20px 0px;
+                color: #000;
+                background: #ffc107;
+                border: none;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+.game-report{
+    .container{
+        .row{
+            .gr-text{
+                .ban-tin{
+                    border: 1px solid #6666;
+                    border-radius: 5px;
+                    margin-top: 30px;
+                    .contain-bt{
+                        padding: 40px 20px;
+                        p{
+                            text-align: center;
+                        }
+                        .gr-pic{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            img{
+                                width: 90px;
+                                height: 90px;
+                                border-radius: 50%;
+                            }
+                            .ti-so1, .ti-so2{
+                                width: 150px;
+                                h1, h2{
+                                    text-align: center;
+                                }
+                                h1{
+                                    font-size: 50px;
+                                    margin-bottom: 30px;
+                                }
+                                h2{
+                                    font-size: 15px;
+                                }
+                            }
+                            .ti-so1{
+                                h1{
+                                    position: relative;
+                                    &:after{
+                                        position: absolute;
+                                        content: '';
+                                        bottom: -10px;
+                                        left: 60px;
+                                        height: 5px;
+                                        width: 30px;
+                                        background: #ffc107;
+
+                                    }
+                                }
+                            }
+                            .ti-so2{
+                                h1{
+                                    color: #666;
+                                }
+                            }
+                        }
+                        button{
+                         margin-left: 190px;
+                         margin-top: 30px;
+                         padding: 10px 15px;
+                         border: none;
+                         border-radius: 5px;
+                         background: #ffc107;
+                        }
+                    }
+                }
+            }
+            .video{
+                video{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+.game-chedule{
+    padding: 50px 0px;
+    .container{
+        >p{
+            margin-bottom: 30px;
+        }
+        .item{
+           .content{
+                padding: 20px;
+                display: flex;
+                border: 1px solid #6666;
+                border-radius: 5px;
+                img{
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 50%;
+                }
+                .text{
+                    margin-left: 30px;
+                    p{
+                        margin-bottom: 10px;
+                    }
+                    h1{
+                        font-size: 30px;
+                    }
+                    h2{
+                        font-size: 20px;
+                    }
+                }
+           }
+        }
+    }
+}
+.list{
+    background: #f8f9fa;
+    .container{
+        padding: 50px 0px !important;
+        .row{
+            .item{
+                display: flex;
+                i{
+                    color: #6b75ff;
+                    font-size: 30px;
+                    margin-right: 20px;
+                }
+                h2{
+                    margin-bottom: 20px;
+                }
+            }
+            .xoay{
+                i{
+                    transform: rotate(45deg)  translate(-55px, 30px);
+                }
+            }
+        }
+    }
+}
+.team-squad{
+    background: rgba(#000,0.2);
+    position: relative;
+    &:after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 50vh;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background: url('https://colorlib.com/preview/theme/knights/images/bg_3.jpg') top center/cover;
+    }
+    .container{
+        padding: 100px 0px;
+        h2{
+            font-size: 20px;
+        }
+        .tq-text{
+            text-align: center;
+            opacity: 1;
+            z-index: 999;
+        }
+        h1,h2,p{
+            color: white;
+        }
+        .slider1{
+            padding-top: 50px;
+            opacity: 1;
+        z-index: 999;
+            .item{
+                display: flex;
+                img{
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                }
+                .text{
+                    margin-left: 20px;
+                    h1{
+                        font-size: 25px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+.profile{
+    .container{
+        .row{
+            .ava{
+                img{
+                    width: 100%;
+                }
+            }
+            .content{
+                padding: 30px 0px;
+                >h1,p{
+                    margin-bottom: 20px;
+                }
+
+                .list-item{
+                    .item{
+                        padding: 10px;
+                        background: #f8f9fa;
+                        margin-top: 20px;
+                        text-align: center;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+.test{
+    background: url('https://colorlib.com/preview/theme/knights/images/bg_2.jpg') top center/cover;
+//    position: relative;
+//    &:after{
+//        position: absolute;
+//        content: '';
+//        width: 100%;
+//        height: 100%;
+//        top: 0;
+//        left: 0;
+//        background: rgba(#000,0.2);
+//    }
+    .contain{
+        padding: 50px 0px;
+        width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        h1,p,h2,h3{
+            color: white;
+        }
+        .slider-content{
+            padding-top: 30px;
+            display: flex;
+            height: 50vh;
+            overflow: hidden;
+            .test-slider{
+                display: flex;
+                transition: all 1.5s cubic-bezier(0, 1.07, 1, 1);
+
+                .con{
+                    width: 800px;
+                    padding-left: 235px;
+                    margin: 0 auto;
+                    text-align: center;
+                    margin-top: 50px;
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        margin-bottom: 30px;
+                    }
+                    p{
+                    }
+                    h2{
+                        font-size: 30px;
+                    }
+                    h3{
+                        font-size: 20px;
+                    }
+    
+                }
+            }
+        }
+        .nut{
+            display: flex;
+            width: 90px;
+            margin: 0 auto;
+            .tron{
+                width: 10px;
+                height: 10px;
+                margin-left: 10px;
+                border-radius: 50%;
+                background: #f8f9fa;
+            }
+            .mot{
+                background: #ffc107;
+            }
+        }
+    }
+}
+.owl-nav{
+    display: none;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

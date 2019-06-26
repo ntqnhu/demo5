@@ -1,0 +1,129 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     
+}
+.myform{
+    display: flex;
+    height: 800px;
+    .left{
+        width: 60%;
+        background-image: url('https://cdn.nguyenkimmall.com/images/companies/_1/Tin_tuc/tin-cong-nghe/23112016/7-kieu-selfie5.jpg');
+        background-size: cover;
+        position: relative;
+        .container{
+            width: 60%;
+            padding-left: 50px;
+            padding-top: 200px;
+            h5{
+                color: white;
+                font-size: 30px;
+                margin-bottom: 50px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;     
+            }
+            .form{
+                .us{
+                    padding: 8px;
+                    background: rgba( white, 0.5);
+                    margin-bottom: 20px;
+                    position: relative;
+                    input{
+                        padding: 5px;
+                        border: none;
+                        background: rgba( white, 0);
+                        &::-webkit-input-placeholder{
+                            color: black;
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .us:before{
+                    content: '';
+                    position: absolute;
+                    width: 100%;
+                    height: 3px;
+                    bottom: 0;
+                    left: 0;
+                    background: #00a1ff;
+                }
+            }
+            .remember{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .lef{
+                    display: flex;
+                    align-items: center;
+                    .o{
+                        width: 12px;
+                        height: 12px;
+                        background: white;
+                        margin-right: 10px;
+                    }
+                    h7{
+                        color: white;
+                        font-size: 15px;
+                    }
+                }
+                h6{
+                    color: white;
+                    font-size: 15px;
+                }
+            }
+            h4{
+                width: 100px;
+                height: 40px;
+                background: #00a1ff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 70px;
+                a{
+                    color: white;
+
+                }
+            }
+            .acount{
+                display: flex;
+                align-items: center;
+                margin-top: 50px;
+                h2{
+                    color: white;
+                    font-size: 18px;
+                    
+                }
+                h3{
+                    a{
+                        color: white;
+                        font-size: 15px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .left:before{
+        content: "";
+        position: absolute;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+        background: rgba(black, 0.2);
+    }
+    .right{
+        width: 40%;
+        background: #00a1ff;
+        h1{
+            width: 70%;
+            color: white;
+            font-size: 50px;
+            padding-top: 55%;
+            padding-left: 10%;
+        }
+    }
+}
+p{
+    color: white;
+    transform: translate(550px,-50px);
+    font-size: 15px;
+    span{
+        color: #d63031;
+    }
+}
